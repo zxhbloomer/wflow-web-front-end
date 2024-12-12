@@ -1,0 +1,61 @@
+//主题定制
+
+@theme-primary: #1989fa; //主题色，应当与element-ui一致
+@theme-danger: #f56c6c; //主题色，应当与element-ui一致
+@theme-success: #35b881;
+@theme-warning: #f78f5f;
+@theme-aside-bgc: #f7f7f9;
+
+@theme-desc-color: #a2a4a8; //辅助文字颜色
+
+//审批流程节点配色
+@node-root: #576a95; //发起人
+@node-condition: #15bca3; //条件
+@node-cc: #3296fa; //抄送
+@node-concurrent: #718dff; //并行
+@node-approval: #ff943e;  //审批
+@node-delay: #f25643; //延时
+@node-trigger: #47bc82; //触发器
+
+
+//移动端Vant Less覆盖
+@font-size-xs: 12px;
+@font-size-sm: 14px;
+@font-size-md: 16px;
+@font-size-lg: 18px;
+@font-weight-bold: 500;
+@line-height-xs: 16px;
+@line-height-sm: 20px;
+@line-height-md: 22px;
+@line-height-lg: 24px;
+
+//通用类
+.w-desc-text{
+  color: @theme-desc-color;
+}
+
+.w-row-text{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.w-t-center{
+  text-align: left;
+}
+
+.w-t-left{
+  left: 0;
+  text-align: left;
+}
+
+.w-t-right{
+  right: 0;
+  text-align: left;
+}
+
+.w-h-center{
+  display: flex;
+  align-items: center;
+}
+
